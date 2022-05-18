@@ -6,12 +6,17 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "node main.js"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^2.9.9"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "three": "^0.140.2"
-  }
+  },
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
